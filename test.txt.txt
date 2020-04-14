@@ -1,1 +1,5 @@
 This is a test
+git add .
+git pull https....
+git commit --m "write message"
+git push origin master
