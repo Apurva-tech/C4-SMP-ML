@@ -1,0 +1,28 @@
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+====== RESTART: C:\Users\hp\Desktop\ML\C4-SMP-ML\Week 2\logisticmain.py ======
+Dimensions:  (100, 3)
+[[30.28671077 43.89499752  0.        ]
+ [35.84740877 72.90219803  0.        ]
+ [60.18259939 86.3085521   1.        ]
+ [79.03273605 75.34437644  1.        ]
+ [45.08327748 56.31637178  0.        ]]
+proceed only if you've completed completed ALL the files, else press Ctrl+C then enter to exit the program
+Cost: 
+ [0.69314718]
+Grad: 
+ [ -0.1        -12.00921659 -11.26284221]
+
+Warning (from warnings module):
+  File "C:\Users\hp\Desktop\ML\C4-SMP-ML\Week 2\costFunction.py", line 15
+    J = -1*(1/m)*((np.log(h).T).dot(y)+np.log(1-h).T.dot(1-y))
+RuntimeWarning: divide by zero encountered in log
+[-25.16133284   0.2062317    0.2014716 ]
+(50, 50)
+
+Warning (from warnings module):
+  File "C:\Users\hp\Desktop\ML\C4-SMP-ML\Week 2\logisticmain.py", line 37
+    plt.contour(xx1, xx2, h, [0.5], linewidths=1, colors='b')                                   #potting the function on the graph
+UserWarning: No contour levels were found within the data range.
+>>> 

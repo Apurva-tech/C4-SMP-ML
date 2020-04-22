@@ -13,6 +13,6 @@ def computeCost(X,y,theta):
     # np.power(A,n) => returns array with each element raised to the power n
     # np.sum(A) => Returns scalar with every element in A summed up
     m=len(y)
-    predictions=np.array(theta[0]+(theta[1])*(np.array(X)))
-    square_err=np.power((np.array(y)-np.array(predictions)),2)
+    predictions=X.dot(theta)
+    square_err=(predictions - y)**2
     return 1/(2*m) * np.sum(square_err)
